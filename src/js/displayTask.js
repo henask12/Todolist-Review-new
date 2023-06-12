@@ -3,6 +3,7 @@ let tasks = [];
 
 export const taskList = document.getElementById("todo-list");
 
+//loads task from storage
 export const loadTasks = () => {
     const storedTasks = localStorage.getItem("tasks");
     if (storedTasks) {
@@ -14,6 +15,7 @@ export const saveTasks = () => {
     localStorage.setItem("tasks", JSON.stringify(tasks));
 };
 
+//make the task editable
 export const makeTaskDescriptionEditable = (event) => {
     const taskDescription = event.target;
     taskDescription.setAttribute("contenteditable", "true"); // Make the task description editable
