@@ -1,3 +1,4 @@
+//mark tasks as completed
 export const updateStatus = (checkbox, task, listItem, saveTasks) => {
     checkbox.checked = task.completed;
     checkbox.addEventListener("change", () => {
