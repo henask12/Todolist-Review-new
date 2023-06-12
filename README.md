@@ -133,7 +133,6 @@ To run the project, execute the following command:
 ## 🔭 Future Features <a name="future-features"></a>
 
 -   [ ] **[Interactive To Do list]**
--   [ ] **[Add animation]**
 -   [ ] **[Drag and Drop or reorder task]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -165,8 +164,6 @@ Your support and feedback are greatly appreciated!
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-I would like to thank the following individuals and resources for their inspiration:
 
 -   My codding Partner's
 -   Microverse Communtiy
